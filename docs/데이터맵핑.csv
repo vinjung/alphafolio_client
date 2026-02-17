@@ -1,0 +1,43 @@
+﻿UI 섹션,매핑할 테이블,컬럼,예시,비고
+종목명,kr_stock_basic,stock_name,삼성전자,
+종목명,us_stock_basic,stock_name,,
+시장,kr_stock_basic,exchange,KOSPI,
+시장,us_stock_basic,exchange,,
+종목코드,kr_stock_basic,symbol,,
+종목코드,us_stock_basic,symbol,,
+현재 가격,kr_intraday,close,,
+현재 가격,us_daily,close,,date 컬럼값이 가장 최근인 것이 기준
+등락률,kr_intraday,change_rate,,
+등락률,us_daily,change_rate,,date 컬럼값이 가장 최근인 것이 기준
+차트 데이터,kr_intraday_total,"symbol, close, date",,별도 논의
+차트 데이터,us_daily,"symbol, close, date",,별도 논의
+AI 종합 의견,kr_stock_grade,"signal_overall, time_series_text, risk_profile_text, volatility_annual, max_drawdown_1y, var_95, cvar_95, beta, sector_momentum, sector_rank, sector_percentile, industry_rank, industry_percentile, rs_value, rs_rank ",,별도 논의
+AI 종합 의견,us_stock_grade,"signal_overall, time_series_text, risk_profile_text, volatility_annual, max_drawdown_1y, var_95, cvar_95, beta, sector_momentum, sector_rank, sector_percentile, industry_rank, industry_percentile, rs_value, rs_rank ",,별도 논의
+투자 등급,kr_stock_grade,final_grade,강한 매수,date 컬럼값이 가장 최근인 것이 기준
+투자 등급,us_stock_grade,final_grade,,date 컬럼값이 가장 최근인 것이 기준
+가치 (value) 점수,kr_stock_grade,value_score,,date 컬럼값이 가장 최근인 것이 기준
+우수함 (quality) 점수,kr_stock_grade,quality_score,,date 컬럼값이 가장 최근인 것이 기준
+탄력 (momentum) 점수,kr_stock_grade,momentum_score,,date 컬럼값이 가장 최근인 것이 기준
+성장 (growth) 점수,kr_stock_grade,growth_score,,date 컬럼값이 가장 최근인 것이 기준
+가치 (value) 점수,us_stock_grade,value_score,,date 컬럼값이 가장 최근인 것이 기준
+우수함 (quality) 점수,us_stock_grade,quality_score,,date 컬럼값이 가장 최근인 것이 기준
+탄력 (momentum) 점수,us_stock_grade,momentum_score,,date 컬럼값이 가장 최근인 것이 기준
+성장 (growth) 점수,us_stock_grade,growth_score,,date 컬럼값이 가장 최근인 것이 기준
+가치 (value) 순위,kr_stock_grade,value_rank,,date 컬럼값이 가장 최근인 것이 기준
+우수함 (quality) 순위,kr_stock_grade,quality_rank,,date 컬럼값이 가장 최근인 것이 기준
+탄력 (momentum) 순위,kr_stock_grade,momentum_rank,,date 컬럼값이 가장 최근인 것이 기준
+성장 (growth) 순위,kr_stock_grade,growth_rank,,date 컬럼값이 가장 최근인 것이 기준
+가치 (value) 순위,us_stock_grade,value_rank,,date 컬럼값이 가장 최근인 것이 기준
+우수함 (quality) 순위,us_stock_grade,quality_rank,,date 컬럼값이 가장 최근인 것이 기준
+탄력 (momentum) 순위,us_stock_grade,momentum_rank,,date 컬럼값이 가장 최근인 것이 기준
+성장 (growth) 순위,us_stock_grade,growth_rank,,date 컬럼값이 가장 최근인 것이 기준
+시나리오별 목표가,kr_stock_grade,strategy,,별도 논의
+시나리오별 목표가,us_stock_grade,strategy,,별도 논의
+대체 종목코드,kr_stock_grade,alt_symbol,,별도 논의
+대체 종목명,kr_stock_grade,alt_stock_name,,별도 논의
+대체 종목 등급,kr_stock_grade,alt_final_grade,,별도 논의
+추천 이유,kr_stock_grade,alt_reasons,,별도 논의
+대체 종목코드,us_stock_grade,alt_symbol,,별도 논의
+대체 종목명,us_stock_grade,alt_stock_name,,별도 논의
+대체 종목 등급,us_stock_grade,alt_final_grade,,별도 논의
+추천 이유,us_stock_grade,alt_reasons,,별도 논의
