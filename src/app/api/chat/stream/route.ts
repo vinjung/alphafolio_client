@@ -99,7 +99,7 @@ export async function POST(request: NextRequest) {
       message: validatedData.message,
       modelConfig: {
         provider: validatedData.modelConfig?.provider || 'anthropic',
-        model: validatedData.modelConfig?.model || 'claude-sonnet-4-5-20250929',
+        model: validatedData.modelConfig?.model || 'claude-sonnet-4-6',
         chat_service_type: validatedData.modelConfig?.chat_service_type || 'ALPHA_AI',
       },
       sessionId: validatedData.sessionId || null,

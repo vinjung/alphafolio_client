@@ -30,7 +30,7 @@ const BASE_MODELS = [
     apiConfig: {
       chat_service_type: 'ALPHA_AI' as const, // ✅ 새로운 enum 값
       provider: 'anthropic' as const,
-      model: 'claude-sonnet-4-5-20250929',
+      model: 'claude-sonnet-4-6',
     },
   },
   // ⏸️ 뇌절 AI 일시 비활성화 (삭제 아님 - 나중에 주석 해제하여 복원 가능)

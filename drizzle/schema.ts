@@ -308,7 +308,7 @@ export const chatSessions = pgTable("chat_sessions", {
 	isArchived: boolean("is_archived").default(false),
 	isPinned: boolean("is_pinned").default(false),
 	llmProvider: varchar("llm_provider", { length: 50 }).default('anthropic'),
-	llmModel: varchar("llm_model", { length: 100 }).default('claude-sonnet-4-5-20250929'),
+	llmModel: varchar("llm_model", { length: 100 }).default('claude-sonnet-4-6'),
 	lastMessageAt: timestamp("last_message_at", { mode: 'string' }),
 	chatServiceType: varchar("chat_service_type", { length: 50 }).default('ALPHA'),
 }, (table) => [
